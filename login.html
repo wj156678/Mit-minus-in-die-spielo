@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mit minus in die Spielo Login</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        #login-form {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 300px;
+            text-align: center;
+        }
+        input[type="text"], input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            margin: 8px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        input[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            width: 100%;
+        }
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+        .forgot-password {
+            text-decoration: none;
+            color: #555;
+            font-size: 12px;
+        }
+        .logo {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div id="login-form">
+        <h2>MMIDS Bank</h2>
+        <h3>Login</h3>
+        <img src="jackpot_1392941.png" alt="Bank Logo" class="logo" width="100">
+        <form action="#" method="post">
+            <input type="text" name="username_email" placeholder="Benutzername oder E-Mail Adresse" required><br>
+            <input type="password" name="password" placeholder="Passwort" required><br>
+            <input type="submit" value="Login"><br>
+        </form>
+    
+        <a href="#" class="forgot-password">Passwort vergessen</a><br>
+        <a href="#" class="forgot-password">Benutzername vergessen</a><br>
+        <a href="#">Zurück zur Homepage</a>
+        <footer>
+            <h6>&copy; 2024 Mit minus in die Spielo Bank. Alle Rechte vorbehalten.</h6>
+        </footer>
+    </div>
+</body>
+</html>
