@@ -56,21 +56,33 @@
 </head>
 <body>
     <div id="login-form">
-        <h2>MMIDS Bank</h2>
+        <h2>MMID$ Bank</h2>
         <h3>Login</h3>
         <img src="jackpot_1392941.png" alt="Bank Logo" class="logo" width="100">
-        <form action="#" method="post">
-            <input type="text" name="username_email" placeholder="Benutzername oder E-Mail Adresse" required><br>
-            <input type="password" name="password" placeholder="Passwort" required><br>
+        <form action="#" method="post" onsubmit="return validateForm()">
+            <input type="text" id="username_email" name="username_email" placeholder="Benutzername oder E-Mail Adresse" required><br>
+            <input type="password" id="password" name="password" placeholder="Passwort" required><br>
+            <input type="checkbox" id="use_face_id" name="use_face_id"> <label for="use_face_id">Face ID verwenden</label><br>
             <input type="submit" value="Login"><br>
         </form>
     
         <a href="#" class="forgot-password">Passwort vergessen</a><br>
         <a href="#" class="forgot-password">Benutzername vergessen</a><br>
-        <a href="#">Zurück zur Homepage</a>
+        <a href="index.html">Zurück zur Homepage</a>
         <footer>
             <h6>&copy; 2024 Mit minus in die Spielo Bank. Alle Rechte vorbehalten.</h6>
         </footer>
     </div>
+
+    <script>
+        function validateForm() {
+           
+            var useFaceID = document.getElementById('use_face_id').checked;
+            if (useFaceID) {
+          
+
+            return true;
+        }
+    </script>
 </body>
 </html>
