@@ -3,6 +3,7 @@ body {
     margin: 0;
     padding: 0;
 }
+
 header {
     background-color: #00000094;
     color: #fff;
@@ -11,27 +12,33 @@ header {
     justify-content: space-between;
     align-items: center;
 }
+
 header img {
     width: 150px;
     height: auto;
 }
+
 nav ul {
     list-style-type: none;
     padding: 0;
     margin: 0;
     display: flex;
 }
+
 nav ul li {
     margin-right: 20px;
 }
+
 nav ul li a {
     color: #fff;
     text-decoration: none;
     font-weight: bold;
 }
+
 main {
     padding: 20px;
 }
+
 footer {
     background-color: #00000094;
     color: #fff;
@@ -40,6 +47,7 @@ footer {
     justify-content: space-between;
     align-items: center;
 }
+
 footer div {
     flex: 1;
     margin-right: 20px;
@@ -61,7 +69,27 @@ footer ul li a {
 }
 .flex-container {
     display: flex;
-    flex-wrap: wrap;
+    background-color: rgb(255, 255, 255);
   }
   
-  
+  .flex-container > div {
+    background-color: #f7d6d6;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+  }
+
+a {
+    color: rgb(94, 94, 94); /* Textfarbe */
+    text-decoration: none; /* Unterstreichung entfernen */
+}
+
+a:visited {
+    color: rgb(94, 94, 94); 
+}
+
+/* Stil für Links beim Überfahren mit der Maus */
+a:hover {
+    color: rgb(76, 0, 255); 
+    text-decoration: underline; 
+}

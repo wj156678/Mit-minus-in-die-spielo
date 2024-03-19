@@ -59,7 +59,7 @@
         <h2>MMID$ Bank</h2>
         <h3>Login</h3>
         <img src="jackpot_1392941.png" alt="Bank Logo" class="logo" width="100">
-        <form action="#" method="post" onsubmit="return validateForm()">
+        <form action="index.html" method="post" onsubmit="return validateForm()">
             <input type="text" id="username_email" name="username_email" placeholder="Benutzername oder E-Mail Adresse" required><br>
             <input type="password" id="password" name="password" placeholder="Passwort" required><br>
             <input type="checkbox" id="use_face_id" name="use_face_id"> <label for="use_face_id">Face ID verwenden</label><br>
@@ -76,12 +76,10 @@
 
     <script>
         function validateForm() {
-           
             var useFaceID = document.getElementById('use_face_id').checked;
             if (useFaceID) {
-          
-
-            return true;
+                return true;
+            }
         }
     </script>
 </body>
