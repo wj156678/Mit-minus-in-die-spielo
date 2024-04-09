@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family:Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -80,13 +80,12 @@ footer ul li a {
   }
 
 a {
-    color: rgb(94, 94, 94); /* Textfarbe */
+    color: rgb(161, 161, 161); /* Textfarbe */
     text-decoration: none; /* Unterstreichung entfernen */
 }
 
 a:visited {
-    color: rgb(94, 94, 94); 
-}
+    color: rgb(161, 161, 161);
 
 /* Stil für Links beim Überfahren mit der Maus */
 a:hover {
